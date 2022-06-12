@@ -61,6 +61,17 @@ padding: 94px 0;
 padding: 200px 0;
 }
 
+.hero {
+    max-width: 1600px;
+    height: 600px;
+    padding-top: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--main-white-color);
+    text-align: center;
+    background-image: linear-gradient(rgba(47,48,58,0.4),rgba(47,48,58,0.4)),url();
+}
+
 .container {
 width: 1200px;
 margin: 0 auto;

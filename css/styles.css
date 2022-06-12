@@ -474,7 +474,7 @@ margin-top: 16px;
 
 .link-iconteam:hover,
 .link-iconteam:focus {
-    fill: blue;
+    fill: var(--main-white-color);
 }
 
 .thumb-team {
@@ -509,7 +509,7 @@ margin-top: 16px;
 
 }
 
-.thumb-customer {
+.link-customer {
 height: 100%;
 display: flex;
 width: 170px;
@@ -520,9 +520,13 @@ justify-content: center;
 align-items: center;
 }
 
+<div class="thumb-customer">
+
 .link-customer {
-    width: 106px;
-    height: 60px;
+   
+    display: block;
+    
+   
 }
 
 .thumb-customer:hover {

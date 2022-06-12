@@ -85,7 +85,6 @@ padding-right: 15px;
 }
 
 
-
 /* Header */
 .page-header {
 background-color: var(--main-white-color);
@@ -169,6 +168,7 @@ margin-bottom: 0;
 margin-top: 0;
 margin-left: auto;
 padding: 0;
+
 }
 
 .nav-info .info-item + .info-item {
@@ -182,6 +182,18 @@ padding: 0;
     padding: 0;
 }
 
+.thumb-nav:hover {
+    fill: var(--accent-color);
+}
+
+.icon-nav {
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.icon-nav:hover {
+    color: var(--accent-color);
+}
 
 
 /* Hero */

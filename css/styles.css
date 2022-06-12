@@ -527,7 +527,7 @@ margin-top: 16px;
 
 .link-customer:hover,
 .link-customer:focus {
-    --color1: #FFFFFF;}
+    fill: #FFFFFF;}
 
 /* Footer */
 
@@ -537,6 +537,7 @@ background-color: var(--bg-footer-color);
 color: var(--main-white-color);
 padding-top: 60px;
 padding-bottom: 60px;
+display: flex;
 }
 
 .footer-adress {
@@ -572,18 +573,34 @@ color: var(--accent-color);
 .footer-list {
 list-style-type: none;
 margin: 0;
-display: inline-block;
 vertical-align: auto;
 padding-left: 0;
 margin-top: 20px;
+width: 231px;
+height: 81px;
+display: inline-block;
+flex-wrap: wrap;
+padding: 0px;
 }
 
 .footer-item:not(:last-child) {
     margin-bottom: 9px;
 }
 
-
-
+/* footer social-network */
+.footer-icons{
+    display: flex;
+    list-style: none;
+}
+.footer-socials
+{display: flex;
+    flex-wrap: wrap;
+    width: 206px;
+    height: 80px;
+    margin-top: 0;
+    margin-left: 0;
+    margin-bottom: 0;
+    margin-right: 0;}
 /* Page portfolio */
 /* Head */
 
@@ -597,6 +614,7 @@ font-style: normal;
 .logo-portfolio {
 color: var(--logo-color);
 }
+
 
 /* Header */
 /* Main content */
@@ -618,6 +636,8 @@ margin-bottom: 0;
 color: transparent;
 font-size: 0;
 }
+
+
 
 /* Examples of work */
 

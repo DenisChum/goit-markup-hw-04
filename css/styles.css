@@ -69,7 +69,10 @@ padding: 200px 0;
     margin-right: auto;
     background-color: var(--main-white-color);
     text-align: center;
-    background-image: linear-gradient(rgba(47,48,58,0.4),rgba(47,48,58,0.4)),url();
+    background-image: linear-gradient(rgba(47,48,58,0.4),rgba(47,48,58,0.4)),url(/images/hero.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .container {
@@ -160,7 +163,7 @@ list-style-type: none;
 
 .nav-info {
 display: flex;
-    background-color: var(--main-white-color);
+background-color: var(--main-white-color);
 list-style: none;
 margin-bottom: 0;
 margin-top: 0;
@@ -170,6 +173,11 @@ padding: 0;
 
 .nav-info .info-item + .info-item {
     margin-left: 50px;
+}
+
+.thumb-nav {
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 
@@ -309,6 +317,18 @@ background-color: var(--main-white-color);
 padding-top: 94px;
 
 }
+
+.thumb.benefits {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    width: 270px;
+    height: 120px;
+    border-radius: 4px;
+    background-color: var(--bg-seconfary-color);
+}
+
 /* About areas of work */
 
 

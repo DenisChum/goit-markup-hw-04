@@ -230,6 +230,7 @@ background-color: var(--accent-color);
 color: var(--main-white-color);
 font-weight: 700;
 font-size: 16px;
+line-height: 1.87;
 letter-spacing: 0.06em;
 cursor: pointer;
 font-family: inherit; 
@@ -453,8 +454,8 @@ background-color: #FFFFFF;
 background-repeat: no-repeat;
 justify-content: center;
 align-items: center;
-fill: var(--social-links-color);
-}
+fill: var(--social-links-color);}
+
 
 .link-iconteam:hover,
 .link-iconteam:focus {
@@ -511,24 +512,27 @@ align-items: center;
 }
 
 .link-customer {
-color: var(--social-links-color);
+fill: var(--social-links-color);
 }
 
 .link-customer:hover,
 .link-customer:focus  {
-border: 1px solid var(--accent-color);
-border-radius: 4px;
+border-color: var(--accent-color);
+}
+
+
+.link-customer:hover,
+.link-customer:focus {
+fill: var(--accent-color);
 }
 
 .icon-comp1 {
-fill: var(--social-links-color);
 width: 106px;
 height: 60px;
 }
 
-.icon-comp1:hover,
-.icon:focus {
-fill:#2196F3;   
+.teamicon-item:not(:last-child) {
+    margin-right: 10px;
 }
 
 /* Footer */
@@ -727,7 +731,7 @@ cursor: pointer;
 }
 
 .examples-item:hover {
-border: 1px solid #EEEEEE;
+
 box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 } 
 
